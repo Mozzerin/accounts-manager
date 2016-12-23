@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Google",
+    "accounts": [
+      {
+        "firstname": "Ivan",
+        "lastname": "Ivanov",
+        "email": "ivanov@google.com",
+        "about": "I'm ivanov",
+        "photo": "img/man1.png"
+      },
+      {
+        "firstname": "Petr",
+        "lastname": "Petrov",
+        "email": "petrov@google.com",
+        "about": "I'm petrov",
+        "photo": "img/man1.png"
+      },
+      {
+        "firstname": "Sidr",
+        "lastname": "Sidorov",
+        "email": "sidorov@google.com",
+        "about": "I'm sidiorov",
+        "photo": "img/man1.png"
+      },
+      {
+        "firstname": "Sasha",
+        "lastname": "Sashin",
+        "email": "sashin@google.com",
+        "about": "I'm sashin",
+        "photo": "img/man1.png"
+      },
+      {
+        "firstname": "Hans",
+        "lastname": "Bosch",
+        "email": "bosch@gmail.com",
+        "about": "I'm the bosch",
+        "photo": "img/man1.png"
+      },
+      {
+        "firstname": "Steak",
+        "lastname": "Martin",
+        "email": "martin@google.com",
+        "about": "I'm martin",
+        "photo": "img/man1.png"
+      }
+    ]
+  },
+  {
+    "name": "Yandex",
+    "accounts": [
+      {
+        "firstname": "Ivan",
+        "lastname": "Ivanov",
+        "email": "ivanov@yandex.com",
+        "about": "I'm ivanov",
+        "photo": "img/man1.png"
+      }
+    ]
+  }
+]

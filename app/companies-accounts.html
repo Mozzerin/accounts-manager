@@ -1,0 +1,16 @@
+<div name="accounts">
+    <div ng-show="tabCtrl.isSet('Google')">
+        <div ng-repeat="company in companies.company | filter: 'Google'">
+            <companies-add-account></companies-add-account>
+            <companies-divider></companies-divider>
+            <companies-account-view></companies-account-view>
+        </div>
+    </div>
+    <div ng-show="tabCtrl.isSet('Yandex')">
+        <div ng-repeat="company in companies.company | filter: 'Yandex'">
+            <companies-add-account></companies-add-account>
+            <companies-divider></companies-divider>
+            <companies-account-view></companies-account-view>
+        </div>
+    </div>
+</div>

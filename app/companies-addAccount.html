@@ -1,0 +1,37 @@
+<div name="addAccount">
+    <form name="addAccountForm" ng-submit="addAccountForm.$valid && addAccCtrl.addAccount(company)" novalidate>
+        <!--  Review Form -->
+        <div class="col-md-6">
+            <h4>Add new account</h4>
+            <fieldset>
+                <div class="form-group">
+                    <input ng-model="addAccCtrl.account.firstname" type="text" class="form-control"
+                           placeholder="Firstname" title="Firstname" required/></div>
+                <div class="form-group">
+                    <input ng-model="addAccCtrl.account.lastname" type="text" class="form-control"
+                           placeholder="Lastname" title="Lastname" required/></div>
+                <div class="form-group">
+                    <input ng-model="addAccCtrl.account.email" type="email" class="form-control"
+                           placeholder="myemail@address.com" title="Email" required/>
+                </div>
+                <div class="form-group">
+                                    <textarea ng-model="addAccCtrl.account.about" class="form-control"
+                                              placeholder="How are you?" title="About" required></textarea></div>
+                <input type="submit" class="btn btn-primary pull-right" value="Submit account"/>
+            </fieldset>
+        </div>
+
+        <!--  Live Preview -->
+        <div name="accountPreView" class="col-md-5 col-md-offset-1 list-group-item"
+             style="background-color: #eeeeee">
+            <h4>Account preview: </h4>
+            <ul class="list-group">
+                <li class="list-group-item"><img ng-src="img/man1.png"/></li>
+                <li class="list-group-item">Firstname: <b>{{addAccCtrl.account.firstname}}</b></li>
+                <li class="list-group-item">Lastname: <b>{{addAccCtrl.account.lastname}}</b></li>
+                <li class="list-group-item">Email Address: <b>{{addAccCtrl.account.email}}</b></li>
+                <li class="list-group-item">About: <b>{{addAccCtrl.account.about}}</b></li>
+            </ul>
+        </div>
+    </form>
+</div>

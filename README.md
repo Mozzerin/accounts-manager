@@ -1,2 +1,2 @@
-# accounts-manager
-test project on angularJS
+# angularjs-cource
+AngularJS project for a internal training course.

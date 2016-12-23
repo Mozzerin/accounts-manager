@@ -1,0 +1,14 @@
+<nav name="companies-navigation" class="navbar navbar-default" role="navigation">
+    <div>
+        <a class="navbar-brand" href="/"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> <b>Social
+            network</b></a>
+        <ul class="nav navbar-nav">
+            <li ng-class="{ active:tabCtrl.isSet('Google') }">
+                <a href ng-click="tabCtrl.setTab('Google')">Google</a>
+            </li>
+            <li ng-class="{ active:tabCtrl.isSet('Yandex') }">
+                <a href ng-click="tabCtrl.setTab('Yandex')">Yandex</a>
+            </li>
+        </ul>
+    </div>
+</nav>

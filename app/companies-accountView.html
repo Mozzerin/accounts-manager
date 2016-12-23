@@ -1,0 +1,9 @@
+<div name="accountView" class="col-md-6 list-group-item" ng-repeat="account in company.accounts">
+    <ul class="list-group">
+        <li class="list-group-item"><img ng-src="{{account.photo}}"/></li>
+        <li class="list-group-item">Firstname: <b>{{account.firstname}}</b></li>
+        <li class="list-group-item">Lastname: <b>{{account.lastname}}</b></li>
+        <li class="list-group-item">Email Address: <b>{{account.email}}</b></li>
+        <li class="list-group-item">About: <b>{{account.about}}</b></li>
+    </ul>
+</div>
